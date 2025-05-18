@@ -52,4 +52,4 @@ For improvements or issues, please open an issue on GitHub or contribute!
 
 ---
 
-Made with ❤️ using Streamlit and Hugging Face
+
