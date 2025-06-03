@@ -47,9 +47,5 @@ They find shelter under a tree.
 
 Each line becomes a separate panel.
 
-## 📬 Contact
-For improvements or issues, please open an issue on GitHub or contribute!
-
----
 
 
