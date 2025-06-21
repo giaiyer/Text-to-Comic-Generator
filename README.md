@@ -1,16 +1,16 @@
-# 📖🎨 Story to Comic Generator
+# Story to Comic Generator
 
 This Streamlit app takes a short story or narration and converts each line into a separate comic panel using a Hugging Face model for image generation.
 
-## 🚀 Features
+## Features
 - Input a multi-line story where each new line represents a comic panel.
 - Comic-style illustrations are generated for each scene.
 - Displays each panel with its corresponding text above the image.
 
-## 🧠 Model Used
+## Model Used
 - [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
 
-## 📦 Requirements
+## Requirements
 
 Create a `requirements.txt` with the following:
 ```
@@ -19,14 +19,7 @@ requests
 Pillow
 ```
 
-## 🔐 Secrets Management
-Store your Hugging Face API key in a `.streamlit/secrets.toml` file:
-```toml
-[general]
-HUGGINGFACE_API_KEY = "your_huggingface_api_key"
-```
-
-## 🧑‍💻 Running the App Locally
+## Running the App Locally
 ```bash
 git clone https://github.com/your-username/story-to-comic
 cd story-to-comic
@@ -34,10 +27,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🌐 Deployment
+## Deployment
 Deploy it easily on [Hugging Face Spaces](https://huggingface.co/spaces) using the `app.py` and `requirements.txt` files.
 
-## 📄 Example Input
+## Example Input
 ```
 A boy wakes up.
 He walks his dog.
