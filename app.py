@@ -51,13 +51,13 @@ def add_text_to_image(img, text):
 
 # UI
 st.set_page_config(page_title="Story to Comic Generator", layout="wide")
-st.title("📖🎨 Story to Comic Generator")
+st.title("Story to Comic Generator")
 
 story_input = st.text_area("Enter a short story or narration:", height=200)
 panel_count = st.slider("Number of panels", 2, 6, 4)
 
 if st.button("Generate Comic") and story_input:
-    st.subheader("🎨 Comic Panels")
+    st.subheader("Comic Panels")
     
     # Split the story input by newlines, each line becomes a new panel
     panels = story_input.split('\n')
